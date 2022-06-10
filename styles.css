@@ -1,0 +1,114 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+.header{
+	display: flex;
+	flex-direction: row;
+	border: solid black 1px;
+}
+#picture{
+	display: flex;
+	height: 14vh;
+	margin-left: 14vh;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+}
+#not-me{
+	display: flex;
+	justify-content: end;
+	font-size: 10px;
+}
+.first-two{
+	display: flex;
+	flex-direction: row;
+}
+.sec1{
+	width: 50vw;
+}
+.sec2{
+	width: 50vw;
+}
+.sec3{
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+	justify-content: space-around;
+}
+.sec4{
+	display: flex;
+	justify-content: center;
+	height: 10vh;
+}
+.bullet-list1{
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	
+}
+#skills {
+	display: flex;
+	justify-content: center;
+}
+#interests {
+	display: flex;
+	justify-content: center;
+}
+.bullet-list2{
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	
+}
+#goals-heading{
+	color:crimson;
+}
+#goal-box {
+	width: 400px;
+	height: 200px
+}
+.buttons {
+	background-color: yellow;
+	height: 100px;
+	width: 150px;
+	margin: 20px;
+}
+.n-header {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}

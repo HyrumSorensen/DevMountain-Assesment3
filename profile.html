@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile-page</title>
+	<link href="styles.css" rel="stylesheet">
+    <a href="./home.html"><< Back </a>
+</head>
+<body>
+	<nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./profile.html">Profile</a></li>
+            <li class="crumb"><a href="./neighborhood.html">My Neighborhood</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	    </ol>
+	</nav>
+    <header class="header">
+        <h1 id="profile-name">Hyrum Sorensen</h1>
+        <img id='picture' src='https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Z3V5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1400&q=60'>
+    </header>
+    <p id="not-me">this isn't me but it would be a picture of me</p>
+    <main>
+        <div class="first-two">
+            <section class="sec1">
+                <h2 id="skills">Skills</h2>
+                <ul class="bullet-list1">
+                    <li>Proficiency in multiple coding languages</li>
+                    <li>Will give you an amazing compliment</li>
+                    <li>Can whistle using hands</li>
+                </ul>
+            </section>
+            <section class="sec2">
+                <h2 id="interests">Interests</h2>
+                <ul class="bullet-list2">
+                    <li>Piano and Vocal Performer</li>
+                    <li>Loves sports! Especially volleyball and tennis</li>
+                    <li>Enjoys playing video games with friends</li>
+                </ul>
+            </section>
+        </div>
+        <section class="sec3">
+            <button class='buttons'id="color">My Favorite Color</button>
+            <button class='buttons'id="place">My Favorite Place</button>
+            <button class='buttons'id="ritual">My Favorite Ritual</button> 
+        </section>
+        <section class="sec4">
+            <h1 id="goals-heading">Submit Career Goals</h1>
+        </section>
+        <form id="goals-form">
+            add your goals here!
+            <input id='goal-box' type="text" placeholder="write goals here"/>
+            <input type="submit">
+        </form>
+    </main>
+    <footer></footer>
+    <script src="profile.js"></script>
+    </body>
